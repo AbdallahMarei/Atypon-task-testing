@@ -1,0 +1,29 @@
+.recipe-image{
+    width: 100%;
+}
+.recipe-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.recipe-title{
+    margin: 0 0 0 2rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.recipe-btn{
+    width: 100%;
+}
+
+
+@media screen and (max-width:785px) {
+    .recipe-container{
+        grid-template-columns: 1fr;
+    }
+    
+}

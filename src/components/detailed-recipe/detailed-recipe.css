@@ -1,0 +1,10 @@
+.detailed-container{
+    display: flex;
+    align-items: center;
+}
+.recipe-details{
+    margin-left: 1rem;
+}
+.detailed-btn{
+    margin-top: 1rem;
+}

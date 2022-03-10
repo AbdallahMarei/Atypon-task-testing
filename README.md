@@ -24,6 +24,14 @@ There is a button to go back to the main page with all the recipes.
 I also made a function that filters all the available recipes on the main page, I commented this function however you can you use it instead of the other search function. If there are no recipes found an alert will pop up.
 
 
+
+/////////Testing using Jest
+I did some testing using jest, I did 7 tests and they all passed.
+You can find them in the test folder inside the components folder.
+run the tests using npm test
+
+
+
 /////////Test Cases:
 
 1- If anything other than letters is entered inside the search field an alert will pop up and the search field will be emptied (using regex).
